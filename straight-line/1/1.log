@@ -1,0 +1,48 @@
+Buildfile: /Users/josh/Study/courses/Master_Report/ASE-17/experiments/benchmarks/math/1/build.xml
+
+run:
+     [java] 1 executions tried!
+     [java] Classes found with package prefix "org.apache.commons.math3.linear": [class org.apache.commons.math3.linear.AbstractFieldMatrix$1, class org.apache.commons.math3.linear.DefaultIterativeLinearSolverEvent, class org.apache.commons.math3.linear.RRQRDecomposition$Solver, class org.apache.commons.math3.linear.RealVector$2, class org.apache.commons.math3.linear.AbstractRealMatrix$1, interface org.apache.commons.math3.linear.RealMatrixPreservingVisitor, class org.apache.commons.math3.linear.EigenDecomposition$1, class org.apache.commons.math3.linear.DefaultRealMatrixPreservingVisitor, class org.apache.commons.math3.linear.ArrayFieldVector, class org.apache.commons.math3.linear.AbstractRealMatrix$3, class org.apache.commons.math3.linear.SingularValueDecomposition$1, interface org.apache.commons.math3.linear.RealVectorPreservingVisitor, class org.apache.commons.math3.linear.QRDecomposition, class org.apache.commons.math3.linear.SymmLQ, class org.apache.commons.math3.linear.CholeskyDecomposition$Solver, interface org.apache.commons.math3.linear.FieldVectorPreservingVisitor, interface org.apache.commons.math3.linear.SparseRealMatrix, class org.apache.commons.math3.linear.SchurTransformer, class org.apache.commons.math3.linear.RealLinearOperator, class org.apache.commons.math3.linear.AbstractRealMatrix$2, class org.apache.commons.math3.linear.DefaultFieldMatrixChangingVisitor, class org.apache.commons.math3.linear.QRDecomposition$1, class org.apache.commons.math3.linear.SchurTransformer$ShiftInfo, class org.apache.commons.math3.linear.BlockRealMatrix, class org.apache.commons.math3.linear.RRQRDecomposition$1, interface org.apache.commons.math3.linear.FieldMatrix, class org.apache.commons.math3.linear.DefaultRealMatrixChangingVisitor, class org.apache.commons.math3.linear.AbstractRealMatrix$5, class org.apache.commons.math3.linear.NonSymmetricMatrixException, class org.apache.commons.math3.linear.SchurTransformer$1, class org.apache.commons.math3.linear.HessenbergTransformer, class org.apache.commons.math3.linear.DefaultFieldMatrixPreservingVisitor, interface org.apache.commons.math3.linear.FieldMatrixPreservingVisitor, interface org.apache.commons.math3.linear.AnyMatrix, interface org.apache.commons.math3.linear.FieldDecompositionSolver, class org.apache.commons.math3.linear.FieldLUDecomposition$Solver, class org.apache.commons.math3.linear.SingularValueDecomposition$Solver, class org.apache.commons.math3.linear.NonSquareOperatorException, class org.apache.commons.math3.linear.IllConditionedOperatorException, class org.apache.commons.math3.linear.RealVector$Entry, class org.apache.commons.math3.linear.RRQRDecomposition, class org.apache.commons.math3.linear.LUDecomposition$1, class org.apache.commons.math3.linear.RectangularCholeskyDecomposition, class org.apache.commons.math3.linear.DiagonalMatrix, class org.apache.commons.math3.linear.OpenMapRealMatrix, class org.apache.commons.math3.linear.SparseFieldMatrix, class org.apache.commons.math3.linear.SingularMatrixException, class org.apache.commons.math3.linear.RealVector$2$UnmodifiableEntry, class org.apache.commons.math3.linear.QRDecomposition$Solver, class org.apache.commons.math3.linear.MatrixUtils, class org.apache.commons.math3.linear.OpenMapRealVector$OpenMapSparseIterator, class org.apache.commons.math3.linear.SymmLQ$State, class org.apache.commons.math3.linear.Array2DRowFieldMatrix, class org.apache.commons.math3.linear.EigenDecomposition, class org.apache.commons.math3.linear.EigenDecomposition$Solver, class org.apache.commons.math3.linear.RealVector$1, class org.apache.commons.math3.linear.Array2DRowRealMatrix, class org.apache.commons.math3.linear.OpenMapRealVector, class org.apache.commons.math3.linear.LUDecomposition$Solver, class org.apache.commons.math3.linear.JacobiPreconditioner, class org.apache.commons.math3.linear.NonSelfAdjointOperatorException, class org.apache.commons.math3.linear.AbstractRealMatrix, class org.apache.commons.math3.linear.JacobiPreconditioner$1, class org.apache.commons.math3.linear.RealVector, interface org.apache.commons.math3.linear.DecompositionSolver, class org.apache.commons.math3.linear.TriDiagonalTransformer, class org.apache.commons.math3.linear.AbstractRealMatrix$4, class org.apache.commons.math3.linear.ConjugateGradient, class org.apache.commons.math3.linear.MatrixDimensionMismatchException, class org.apache.commons.math3.linear.ArrayRealVector, class org.apache.commons.math3.linear.AbstractFieldMatrix$2, class org.apache.commons.math3.linear.FieldLUDecomposition, class org.apache.commons.math3.linear.MatrixUtils$BigFractionMatrixConverter, class org.apache.commons.math3.linear.RealVector$SparseEntryIterator, interface org.apache.commons.math3.linear.RealMatrix, class org.apache.commons.math3.linear.CholeskyDecomposition$1, class org.apache.commons.math3.linear.AbstractFieldMatrix, class org.apache.commons.math3.linear.NonSquareMatrixException, class org.apache.commons.math3.linear.BiDiagonalTransformer, class org.apache.commons.math3.linear.FieldLUDecomposition$1, class org.apache.commons.math3.linear.RealVector$2$1, class org.apache.commons.math3.linear.SingularOperatorException, class org.apache.commons.math3.linear.RealVectorFormat, interface org.apache.commons.math3.linear.FieldVector, class org.apache.commons.math3.linear.NonPositiveDefiniteOperatorException, class org.apache.commons.math3.linear.OpenMapRealVector$OpenMapEntry, class org.apache.commons.math3.linear.MatrixUtils$FractionMatrixConverter, interface org.apache.commons.math3.linear.RealMatrixChangingVisitor, class org.apache.commons.math3.linear.IterativeLinearSolverEvent, class org.apache.commons.math3.linear.SparseRealVector, class org.apache.commons.math3.linear.NonPositiveDefiniteMatrixException, interface org.apache.commons.math3.linear.FieldMatrixChangingVisitor, class org.apache.commons.math3.linear.AbstractFieldMatrix$3, class org.apache.commons.math3.linear.BlockFieldMatrix, class org.apache.commons.math3.linear.SingularValueDecomposition, class org.apache.commons.math3.linear.RealVector$2$2, interface org.apache.commons.math3.linear.FieldVectorChangingVisitor, class org.apache.commons.math3.linear.RealMatrixFormat, class org.apache.commons.math3.linear.LUDecomposition, class org.apache.commons.math3.linear.IterativeLinearSolver, class org.apache.commons.math3.linear.CholeskyDecomposition, class org.apache.commons.math3.linear.SparseFieldVector, interface org.apache.commons.math3.linear.RealVectorChangingVisitor, class org.apache.commons.math3.linear.PreconditionedIterativeLinearSolver]
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] 1687 executions tried!
+     [java] Found solution:
+     [java] ----------------------------------------------------------------
+     [java] org.apache.commons.math3.linear.SingularValueDecomposition res0 = new org.apache.commons.math3.linear.SingularValueDecomposition(arg0);
+     [java] org.apache.commons.math3.linear.DecompositionSolver res1 = res0.getSolver();
+     [java] org.apache.commons.math3.linear.RealMatrix res2 = res1.getInverse();
+     [java] return res2;
+     [java] 
+     [java] ----------------------------------------------------------------
+     [java] Number of invocations tried: 800
+     [java] Search depth: 3
+     [java] Number of executions: 1751
+
+BUILD SUCCESSFUL
+Total time: 6 seconds

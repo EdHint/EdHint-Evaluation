@@ -1,0 +1,861 @@
+Buildfile: /Users/josh/Study/courses/Master_Report/ASE-17/experiments/benchmarks/geometry/13/build.xml
+
+run:
+     [java] 1 executions tried!
+     [java] Classes found with package prefix "java.awt.geom": [class java.awt.geom.Rectangle2D, class java.awt.geom.Area, class java.awt.geom.QuadCurve2D$Double, class java.awt.geom.Arc2D$Float, class java.awt.geom.ArcIterator, class java.awt.geom.Path2D$Double$TxIterator, class java.awt.geom.QuadIterator, class java.awt.geom.Line2D$Double, class java.awt.geom.Arc2D$Double, class java.awt.geom.LineIterator, class java.awt.geom.RoundRectangle2D, class java.awt.geom.Arc2D, class java.awt.geom.Path2D$Float$TxIterator, class java.awt.geom.Ellipse2D$Double, class java.awt.geom.Point2D$Float, class java.awt.geom.Path2D, class java.awt.geom.QuadCurve2D$Float, class java.awt.geom.Rectangle2D$Double, class java.awt.geom.AreaIterator, class java.awt.geom.AffineTransform, class java.awt.geom.Line2D, class java.awt.geom.FlatteningPathIterator, class java.awt.geom.Path2D$Float$CopyIterator, class java.awt.geom.Point2D$Double, class java.awt.geom.Path2D$Float, class java.awt.geom.CubicCurve2D$Float, class java.awt.geom.RoundRectangle2D$Double, class java.awt.geom.CubicIterator, class java.awt.geom.Path2D$Double, class java.awt.geom.Dimension2D, class java.awt.geom.RectangularShape, class java.awt.geom.Path2D$Iterator, class java.awt.geom.Ellipse2D, class java.awt.geom.Ellipse2D$Float, class java.awt.geom.Point2D, class java.awt.geom.Path2D$Double$CopyIterator, class java.awt.geom.Rectangle2D$Float, class java.awt.geom.RoundRectangle2D$Float, class java.awt.geom.GeneralPath, class java.awt.geom.RectIterator, class java.awt.geom.QuadCurve2D, class java.awt.geom.NoninvertibleTransformException, class java.awt.geom.RoundRectIterator, class java.awt.geom.CubicCurve2D, class java.awt.geom.Line2D$Float, interface java.awt.geom.PathIterator, class java.awt.geom.EllipseIterator, class java.awt.geom.CubicCurve2D$Double, class java.awt.geom.IllegalPathStateException]
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 4
+     [java]     returnId: 3
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 4
+     [java]     returnId: 3
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 11497 executions tried!
+     [java] 32761 executions tried!
+     [java] 59029 executions tried!
+     [java] 85751 executions tried!
+     [java] 111547 executions tried!
+     [java] 139099 executions tried!
+     [java] 167294 executions tried!
+     [java] 193432 executions tried!
+     [java] 218212 executions tried!
+     [java] 241635 executions tried!
+     [java] 268333 executions tried!
+     [java] 295740 executions tried!
+     [java] 322208 executions tried!
+     [java] 350391 executions tried!
+     [java] 375917 executions tried!
+     [java] 400569 executions tried!
+     [java] 426232 executions tried!
+     [java] 452789 executions tried!
+     [java] 477937 executions tried!
+     [java] 503618 executions tried!
+     [java] 526548 executions tried!
+     [java] 553235 executions tried!
+     [java] 579702 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 3
+     [java] }
+     [java] 
+     [java] 606080 executions tried!
+     [java] 633164 executions tried!
+     [java] Trying configuration: {java.awt.geom.IllegalPathStateException
+     [java] 	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+     [java] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+     [java] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+     [java] 	at sketch4j.invocation.invoc.ConstructorInvocation.invoke(ConstructorInvocation.java:26)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.updateAndInvoke(OnePhaseBatchInvocationGenerator.java:622)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.invoke(OnePhaseBatchInvocationGenerator.java:671)
+     [java] 	at sketch4j.request.invocation.BatchInvocationRequest$BATCH_INVOCATION.invoke(BatchInvocationRequest.java:164)
+     [java] 	at Main.rotate(Main.java:20)
+     [java] 	at Main.test0(Main.java:32)
+     [java] 	at Main.test(Main.java:25)
+     [java] 	at Main.main(Main.java:64)
+     [java] 
+     [java]     searchDepth: 4
+     [java]     returnId: 3
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 3
+     [java] }
+     [java] 
+     [java] 658174 executions tried!
+     [java] 684029 executions tried!
+     [java] 709995 executions tried!
+     [java] 734756 executions tried!
+     [java] 760468 executions tried!
+     [java] 783910 executions tried!
+     [java] 810752 executions tried!
+     [java] 837099 executions tried!
+     [java] 864065 executions tried!
+     [java] 890872 executions tried!
+     [java] 916807 executions tried!
+     [java] 943339 executions tried!
+     [java] 971296 executions tried!
+     [java] 998537 executions tried!
+     [java] 1024766 executions tried!
+     [java] 1047536 executions tried!
+     [java] 1073939 executions tried!
+     [java] 1100485 executions tried!
+     [java] 1126958 executions tried!
+     [java] 1152330 executions tried!
+     [java] 1175967 executions tried!
+     [java] 1200157 executions tried!
+     [java] 1226816 executions tried!
+     [java] 1249718 executions tried!
+     [java] 1272926 executions tried!
+     [java] 1295939 executions tried!
+     [java] 1315586 executions tried!
+     [java] 1332545 executions tried!
+     [java] 1357479 executions tried!
+     [java] 1383825 executions tried!
+     [java] 1410376 executions tried!
+     [java] 1437346 executions tried!
+     [java] 1463684 executions tried!
+     [java] 1489897 executions tried!
+     [java] 1516726 executions tried!
+     [java] 1544044 executions tried!
+     [java] 1572089 executions tried!
+     [java] 1599556 executions tried!
+     [java] 1625902 executions tried!
+     [java] 1652655 executions tried!
+     [java] 1679253 executions tried!
+     [java] 1706144 executions tried!
+     [java] 1733155 executions tried!
+     [java] 1759564 executions tried!
+     [java] 1786420 executions tried!
+     [java] 1813827 executions tried!
+     [java] 1840737 executions tried!
+     [java] 1867764 executions tried!
+     [java] 1895812 executions tried!
+     [java] 1923033 executions tried!
+     [java] 1950021 executions tried!
+     [java] 1976738 executions tried!
+     [java] 2003165 executions tried!
+     [java] 2030396 executions tried!
+     [java] 2056843 executions tried!
+     [java] 2083482 executions tried!
+     [java] 2111223 executions tried!
+     [java] 2138283 executions tried!
+     [java] 2164591 executions tried!
+     [java] 2191322 executions tried!
+     [java] 2219270 executions tried!
+     [java] 2246413 executions tried!
+     [java] 2273005 executions tried!
+     [java] 2299830 executions tried!
+     [java] 2326349 executions tried!
+     [java] 2353378 executions tried!
+     [java] 2380571 executions tried!
+     [java] 2407272 executions tried!
+     [java] 2434555 executions tried!
+     [java] 2461311 executions tried!
+     [java] 2488046 executions tried!
+     [java] 2514632 executions tried!
+     [java] 2541809 executions tried!
+     [java] 2568980 executions tried!
+     [java] 2596520 executions tried!
+     [java] 2623802 executions tried!
+     [java] 2650667 executions tried!
+     [java] 2677479 executions tried!
+     [java] 2704429 executions tried!
+     [java] 2730997 executions tried!
+     [java] 2757863 executions tried!
+     [java] 2784655 executions tried!
+     [java] 2811308 executions tried!
+     [java] 2838342 executions tried!
+     [java] 2865382 executions tried!
+     [java] 2893075 executions tried!
+     [java] 2920705 executions tried!
+     [java] 2946629 executions tried!
+     [java] 2972617 executions tried!
+     [java] 3000264 executions tried!
+     [java] java.awt.geom.IllegalPathStateException
+     [java] 	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+     [java] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+     [java] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+     [java] 	at sketch4j.invocation.invoc.ConstructorInvocation.invoke(ConstructorInvocation.java:26)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.updateAndInvoke(OnePhaseBatchInvocationGenerator.java:622)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.invoke(OnePhaseBatchInvocationGenerator.java:671)
+     [java] 	at sketch4j.request.invocation.BatchInvocationRequest$BATCH_INVOCATION.invoke(BatchInvocationRequest.java:164)
+     [java] 	at Main.rotate(Main.java:20)
+     [java] 	at Main.test0(Main.java:32)
+     [java] 	at Main.test(Main.java:25)
+     [java] 	at Main.main(Main.java:64)
+     [java] Trying configuration: {
+     [java]     searchDepth: 4
+     [java]     returnId: 3
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 4
+     [java] }
+     [java] 
+     [java] 3024980 executions tried!
+     [java] 3052815 executions tried!
+     [java] java.awt.geom.IllegalPathStateException
+     [java] 	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+     [java] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+     [java] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+     [java] 	at sketch4j.invocation.invoc.ConstructorInvocation.invoke(ConstructorInvocation.java:26)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.updateAndInvoke(OnePhaseBatchInvocationGenerator.java:622)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.invoke(OnePhaseBatchInvocationGenerator.java:671)
+     [java] 	at sketch4j.request.invocation.BatchInvocationRequest$BATCH_INVOCATION.invoke(BatchInvocationRequest.java:164)
+     [java] 	at Main.rotate(Main.java:20)
+     [java] 	at Main.test0(Main.java:32)
+     [java] 	at Main.test(Main.java:25)
+     [java] 	at Main.main(Main.java:64)
+     [java] 3079614 executions tried!
+     [java] java.awt.geom.IllegalPathStateException
+     [java] 	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+     [java] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+     [java] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+     [java] 	at sketch4j.invocation.invoc.ConstructorInvocation.invoke(ConstructorInvocation.java:26)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.updateAndInvoke(OnePhaseBatchInvocationGenerator.java:622)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.invoke(OnePhaseBatchInvocationGenerator.java:671)
+     [java] 	at sketch4j.request.invocation.BatchInvocationRequest$BATCH_INVOCATION.invoke(BatchInvocationRequest.java:164)
+     [java] 	at Main.rotate(Main.java:20)
+     [java] 	at Main.test0(Main.java:32)
+     [java] 	at Main.test(Main.java:25)
+     [java] 	at Main.main(Main.java:64)
+     [java] 3107704 executions tried!
+     [java] java.awt.geom.IllegalPathStateException
+     [java] 	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+     [java] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+     [java] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+     [java] 	at sketch4j.invocation.invoc.ConstructorInvocation.invoke(ConstructorInvocation.java:26)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.updateAndInvoke(OnePhaseBatchInvocationGenerator.java:622)
+     [java] 	at sketch4j.invocation.generator.batch.OnePhaseBatchInvocationGenerator.invoke(OnePhaseBatchInvocationGenerator.java:671)
+     [java] 	at sketch4j.request.invocation.BatchInvocationRequest$BATCH_INVOCATION.invoke(BatchInvocationRequest.java:164)
+     [java] 	at Main.rotate(Main.java:20)
+     [java] 	at Main.test0(Main.java:32)
+     [java] 	at Main.test(Main.java:25)
+     [java] 	at Main.main(Main.java:64)
+     [java] 3135710 executions tried!
+     [java] 3163348 executions tried!
+     [java] 3192666 executions tried!
+     [java] 3221731 executions tried!
+     [java] 3249105 executions tried!
+     [java] 3276368 executions tried!
+     [java] 3303540 executions tried!
+     [java] 3330946 executions tried!
+     [java] 3358151 executions tried!
+     [java] 3386292 executions tried!
+     [java] 3414586 executions tried!
+     [java] 3441951 executions tried!
+     [java] 3469488 executions tried!
+     [java] 3497065 executions tried!
+     [java] 3525492 executions tried!
+     [java] 3553411 executions tried!
+     [java] 3581050 executions tried!
+     [java] 3608073 executions tried!
+     [java] 3635386 executions tried!
+     [java] 3662739 executions tried!
+     [java] 3690188 executions tried!
+     [java] 3717872 executions tried!
+     [java] 3745403 executions tried!
+     [java] 3772998 executions tried!
+     [java] 3800392 executions tried!
+     [java] 3828057 executions tried!
+     [java] 3856765 executions tried!
+     [java] 3884786 executions tried!
+     [java] 3912462 executions tried!
+     [java] 3939835 executions tried!
+     [java] 3967219 executions tried!
+     [java] 3994505 executions tried!
+     [java] 4021836 executions tried!
+     [java] 4049375 executions tried!
+     [java] 4076737 executions tried!
+     [java] 4104179 executions tried!
+     [java] 4131617 executions tried!
+     [java] 4158866 executions tried!
+     [java] 4187407 executions tried!
+     [java] 4215174 executions tried!
+     [java] 4242568 executions tried!
+     [java] 4269862 executions tried!
+     [java] 4297357 executions tried!
+     [java] 4324847 executions tried!
+     [java] 4352049 executions tried!
+     [java] 4379401 executions tried!
+     [java] 4406671 executions tried!
+     [java] 4434196 executions tried!
+     [java] 4461349 executions tried!
+     [java] 4488544 executions tried!
+     [java] 4516554 executions tried!
+     [java] 4544298 executions tried!
+     [java] 4571126 executions tried!
+     [java] 4598175 executions tried!
+     [java] 4625730 executions tried!
+     [java] 4653083 executions tried!
+     [java] 4680464 executions tried!
+     [java] 4707998 executions tried!
+     [java] 4735123 executions tried!
+     [java] 4762696 executions tried!
+     [java] 4790021 executions tried!
+     [java] 4817499 executions tried!
+     [java] 4845576 executions tried!
+     [java] 4873529 executions tried!
+     [java] 4901008 executions tried!
+     [java] 4928365 executions tried!
+     [java] 4955840 executions tried!
+     [java] 4983315 executions tried!
+     [java] 5011017 executions tried!
+     [java] 5038706 executions tried!
+     [java] 5066326 executions tried!
+     [java] 5093634 executions tried!
+     [java] 5121101 executions tried!
+     [java] 5148591 executions tried!
+     [java] 5176795 executions tried!
+     [java] 5204656 executions tried!
+     [java] 5232306 executions tried!
+     [java] 5260077 executions tried!
+     [java] 5287338 executions tried!
+     [java] 5314950 executions tried!
+     [java] 5342675 executions tried!
+     [java] 5370287 executions tried!
+     [java] 5397881 executions tried!
+     [java] 5425788 executions tried!
+     [java] 5453504 executions tried!
+     [java] 5481077 executions tried!
+     [java] 5509651 executions tried!
+     [java] 5537670 executions tried!
+     [java] 5565247 executions tried!
+     [java] 5592892 executions tried!
+     [java] 5620585 executions tried!
+     [java] 5647917 executions tried!
+     [java] 5675506 executions tried!
+     [java] 5702907 executions tried!
+     [java] 5730289 executions tried!
+     [java] 5758015 executions tried!
+     [java] 5785250 executions tried!
+     [java] 5812480 executions tried!
+     [java] 5840642 executions tried!
+     [java] 5868828 executions tried!
+     [java] 5896404 executions tried!
+     [java] 5924028 executions tried!
+     [java] 5951373 executions tried!
+     [java] 5978816 executions tried!
+     [java] 6006182 executions tried!
+     [java] 6033395 executions tried!
+     [java] 6060806 executions tried!
+     [java] 6088037 executions tried!
+     [java] 6115199 executions tried!
+     [java] 6142684 executions tried!
+     [java] 6171104 executions tried!
+     [java] 6199134 executions tried!
+     [java] 6226588 executions tried!
+     [java] 6254318 executions tried!
+     [java] 6281578 executions tried!
+     [java] 6309047 executions tried!
+     [java] 6336612 executions tried!
+     [java] 6364118 executions tried!
+     [java] 6391231 executions tried!
+     [java] 6418377 executions tried!
+     [java] 6445861 executions tried!
+     [java] 6473468 executions tried!
+     [java] 6501510 executions tried!
+     [java] 6529627 executions tried!
+     [java] 6557279 executions tried!
+     [java] 6584833 executions tried!
+     [java] 6612176 executions tried!
+     [java] 6639978 executions tried!
+     [java] 6667556 executions tried!
+     [java] 6695495 executions tried!
+     [java] 6723070 executions tried!
+     [java] 6750686 executions tried!
+     [java] 6777898 executions tried!
+     [java] 6805406 executions tried!
+     [java] 6833902 executions tried!
+     [java] 6861856 executions tried!
+     [java] 6889375 executions tried!
+     [java] 6917075 executions tried!
+     [java] 6944372 executions tried!
+     [java] 6971636 executions tried!
+     [java] 6998843 executions tried!
+     [java] 7026344 executions tried!
+     [java] 7053327 executions tried!
+     [java] 7080807 executions tried!
+     [java] 7108632 executions tried!
+     [java] 7136328 executions tried!
+     [java] 7164422 executions tried!
+     [java] 7192342 executions tried!
+     [java] 7219992 executions tried!
+     [java] 7247727 executions tried!
+     [java] 7275254 executions tried!
+     [java] 7302691 executions tried!
+     [java] 7329977 executions tried!
+     [java] 7357361 executions tried!
+     [java] 7384388 executions tried!
+     [java] 7411753 executions tried!
+     [java] 7439254 executions tried!
+     [java] 7466717 executions tried!
+     [java] 7495141 executions tried!
+     [java] 7523009 executions tried!
+     [java] 7550567 executions tried!
+     [java] 7578365 executions tried!
+     [java] 7605812 executions tried!
+     [java] 7633239 executions tried!
+     [java] 7660585 executions tried!
+     [java] 7688308 executions tried!
+     [java] 7715383 executions tried!
+     [java] 7742903 executions tried!
+     [java] 7770610 executions tried!
+     [java] 7798176 executions tried!
+     [java] 7826382 executions tried!
+     [java] 7854555 executions tried!
+     [java] 7882029 executions tried!
+     [java] 7909763 executions tried!
+     [java] 7936956 executions tried!
+     [java] 7964384 executions tried!
+     [java] 7991669 executions tried!
+     [java] 8018912 executions tried!
+     [java] 8046190 executions tried!
+     [java] 8073628 executions tried!
+     [java] 8101029 executions tried!
+     [java] 8128238 executions tried!
+     [java] 8156396 executions tried!
+     [java] 8184365 executions tried!
+     [java] 8211989 executions tried!
+     [java] 8239588 executions tried!
+     [java] 8266806 executions tried!
+     [java] 8294448 executions tried!
+     [java] 8322061 executions tried!
+     [java] 8349550 executions tried!
+     [java] 8376968 executions tried!
+     [java] 8404561 executions tried!
+     [java] 8432440 executions tried!
+     [java] 8459745 executions tried!
+     [java] 8488250 executions tried!
+     [java] 8516226 executions tried!
+     [java] 8543827 executions tried!
+     [java] 8571488 executions tried!
+     [java] 8598879 executions tried!
+     [java] 8626295 executions tried!
+     [java] 8653666 executions tried!
+     [java] 8680957 executions tried!
+     [java] 8708446 executions tried!
+     [java] 8735855 executions tried!
+     [java] 8763667 executions tried!
+     [java] 8791183 executions tried!
+     [java] 8819362 executions tried!
+     [java] 8847465 executions tried!
+     [java] 8874992 executions tried!
+     [java] 8902703 executions tried!
+     [java] 8929987 executions tried!
+     [java] 8957485 executions tried!
+     [java] 8984948 executions tried!
+     [java] 9012331 executions tried!
+     [java] 9040090 executions tried!
+     [java] 9067685 executions tried!
+     [java] 9095341 executions tried!
+     [java] 9122961 executions tried!
+     [java] 9151372 executions tried!
+     [java] 9179419 executions tried!
+     [java] 9206925 executions tried!
+     [java] 9234637 executions tried!
+     [java] 9261728 executions tried!
+     [java] 9289322 executions tried!
+     [java] 9316694 executions tried!
+     [java] 9344007 executions tried!
+     [java] 9371449 executions tried!
+     [java] 9398829 executions tried!
+     [java] 9426419 executions tried!
+     [java] 9453890 executions tried!
+     [java] 9482294 executions tried!
+     [java] 9510182 executions tried!
+     [java] 9537726 executions tried!
+     [java] 9565305 executions tried!
+     [java] 9592547 executions tried!
+     [java] 9620222 executions tried!
+     [java] 9647733 executions tried!
+     [java] 9675298 executions tried!
+     [java] 9702552 executions tried!
+     [java] 9729990 executions tried!
+     [java] 9757466 executions tried!
+     [java] 9785030 executions tried!
+     [java] 9813332 executions tried!
+     [java] 9841275 executions tried!
+     [java] 9868788 executions tried!
+     [java] 9896224 executions tried!
+     [java] 9923425 executions tried!
+     [java] 9950817 executions tried!
+     [java] 9978079 executions tried!
+     [java] 10005413 executions tried!
+     [java] 10032820 executions tried!
+     [java] 10059962 executions tried!
+     [java] 10087419 executions tried!
+     [java] 10114946 executions tried!
+     [java] 10143193 executions tried!
+     [java] 10171142 executions tried!
+     [java] 10196676 executions tried!
+     [java] 10224298 executions tried!
+     [java] 10251641 executions tried!
+     [java] 10279015 executions tried!
+     [java] 10306289 executions tried!
+     [java] 10333712 executions tried!
+     [java] 10360986 executions tried!
+     [java] 10388519 executions tried!
+     [java] 10415787 executions tried!
+     [java] 10443182 executions tried!
+     [java] 10471637 executions tried!
+     [java] 10499612 executions tried!
+     [java] 10527309 executions tried!
+     [java] 10555176 executions tried!
+     [java] 10582556 executions tried!
+     [java] 10610041 executions tried!
+     [java] 10637688 executions tried!
+     [java] 10665360 executions tried!
+     [java] 10692541 executions tried!
+     [java] 10720490 executions tried!
+     [java] 10747728 executions tried!
+     [java] 10774812 executions tried!
+     [java] 10802734 executions tried!
+     [java] 10830266 executions tried!
+     [java] 10857143 executions tried!
+     [java] 10884723 executions tried!
+     [java] 10912094 executions tried!
+     [java] 10939173 executions tried!
+     [java] 10966852 executions tried!
+     [java] 10994320 executions tried!
+     [java] 11021712 executions tried!
+     [java] 11049363 executions tried!
+     [java] 11076722 executions tried!
+     [java] 11104271 executions tried!
+     [java] 11132579 executions tried!
+     [java] 11160462 executions tried!
+     [java] 11188286 executions tried!
+     [java] 11215869 executions tried!
+     [java] 11242984 executions tried!
+     [java] 11270287 executions tried!
+     [java] 11297642 executions tried!
+     [java] 11325112 executions tried!
+     [java] 11352211 executions tried!
+     [java] 11379800 executions tried!
+     [java] 11407116 executions tried!
+     [java] 11434502 executions tried!
+     [java] 11462483 executions tried!
+     [java] 11490520 executions tried!
+     [java] 11518032 executions tried!
+     [java] 11545777 executions tried!
+     [java] 11572935 executions tried!
+     [java] 11600228 executions tried!
+     [java] 11627445 executions tried!
+     [java] 11654874 executions tried!
+     [java] 11682282 executions tried!
+     [java] 11709777 executions tried!
+     [java] 11737151 executions tried!
+     [java] 11764841 executions tried!
+     [java] 11793588 executions tried!
+     [java] 11821488 executions tried!
+     [java] 11848969 executions tried!
+     [java] 11876543 executions tried!
+     [java] 11903909 executions tried!
+     [java] 11931055 executions tried!
+     [java] 11958661 executions tried!
+     [java] 11986040 executions tried!
+     [java] 12013476 executions tried!
+     [java] 12040983 executions tried!
+     [java] 12068267 executions tried!
+     [java] 12095470 executions tried!
+     [java] 12123726 executions tried!
+     [java] 12151668 executions tried!
+     [java] 12179112 executions tried!
+     [java] 12206775 executions tried!
+     [java] 12234015 executions tried!
+     [java] 12261487 executions tried!
+     [java] 12288632 executions tried!
+     [java] 12315982 executions tried!
+     [java] 12343340 executions tried!
+     [java] 12370576 executions tried!
+     [java] 12397959 executions tried!
+     [java] 12425523 executions tried!
+     [java] 12453784 executions tried!
+     [java] 12481816 executions tried!
+     [java] 12509412 executions tried!
+     [java] 12537067 executions tried!
+     [java] 12564503 executions tried!
+     [java] 12591930 executions tried!
+     [java] 12619280 executions tried!
+     [java] 12646297 executions tried!
+     [java] 12673674 executions tried!
+     [java] 12701039 executions tried!
+     [java] 12728377 executions tried!
+     [java] 12755495 executions tried!
+     [java] 12783921 executions tried!
+     [java] 12811901 executions tried!
+     [java] 12839373 executions tried!
+     [java] 12866905 executions tried!
+     [java] 12894459 executions tried!
+     [java] 12921426 executions tried!
+     [java] 12948733 executions tried!
+     [java] 12976076 executions tried!
+     [java] 13003350 executions tried!
+     [java] 13030652 executions tried!
+     [java] 13057906 executions tried!
+     [java] 13085305 executions tried!
+     [java] 13113498 executions tried!
+     [java] 13141387 executions tried!
+     [java] 13168936 executions tried!
+     [java] 13196740 executions tried!
+     [java] 13224106 executions tried!
+     [java] 13251582 executions tried!
+     [java] 13279016 executions tried!
+     [java] 13306288 executions tried!
+     [java] 13333613 executions tried!
+     [java] 13360892 executions tried!
+     [java] 13388002 executions tried!
+     [java] 13415370 executions tried!
+     [java] 13443865 executions tried!
+     [java] 13471946 executions tried!
+     [java] 13499465 executions tried!
+     [java] 13527119 executions tried!
+     [java] 13554355 executions tried!
+     [java] 13581917 executions tried!
+     [java] 13609275 executions tried!
+     [java] 13636554 executions tried!
+     [java] 13663701 executions tried!
+     [java] 13691031 executions tried!
+     [java] 13718583 executions tried!
+     [java] 13745975 executions tried!
+     [java] 13774424 executions tried!
+     [java] 13802573 executions tried!
+     [java] 13830225 executions tried!
+     [java] 13857769 executions tried!
+     [java] 13885144 executions tried!
+     [java] 13912560 executions tried!
+     [java] 13939786 executions tried!
+     [java] 13967274 executions tried!
+     [java] 13994560 executions tried!
+     [java] 14022220 executions tried!
+     [java] 14049659 executions tried!
+     [java] 14077090 executions tried!
+     [java] 14105213 executions tried!
+     [java] 14133332 executions tried!
+     [java] 14160850 executions tried!
+     [java] 14188509 executions tried!
+     [java] 14215932 executions tried!
+     [java] 14242823 executions tried!
+     [java] 14269793 executions tried!
+     [java] 14296932 executions tried!
+     [java] 14324127 executions tried!
+     [java] 14351261 executions tried!
+     [java] 14378638 executions tried!
+     [java] 14405851 executions tried!
+     [java] 14434210 executions tried!
+     [java] 14462193 executions tried!
+     [java] 14489814 executions tried!
+     [java] 14517502 executions tried!
+     [java] 14544793 executions tried!
+     [java] 14572313 executions tried!
+     [java] 14599677 executions tried!
+     [java] 14627224 executions tried!
+     [java] 14654722 executions tried!
+     [java] 14682167 executions tried!
+     [java] 14709176 executions tried!
+     [java] 14736581 executions tried!
+     [java] 14765135 executions tried!
+     [java] 14793205 executions tried!
+     [java] 14820737 executions tried!
+     [java] 14848367 executions tried!
+     [java] 14875631 executions tried!
+     [java] 14903106 executions tried!
+     [java] 14930504 executions tried!
+     [java] 14958060 executions tried!
+     [java] 14985230 executions tried!
+     [java] 15012627 executions tried!
+     [java] 15039979 executions tried!
+     [java] 15067460 executions tried!
+     [java] 15095844 executions tried!
+     [java] 15123879 executions tried!
+     [java] 15151326 executions tried!
+     [java] 15178632 executions tried!
+     [java] 15206080 executions tried!
+     [java] 15233156 executions tried!
+     [java] 15260402 executions tried!
+     [java] 15287437 executions tried!
+     [java] 15314841 executions tried!
+     [java] 15342480 executions tried!
+     [java] 15369958 executions tried!
+     [java] 15397618 executions tried!
+     [java] 15426114 executions tried!
+     [java] 15454114 executions tried!
+     [java] 15481545 executions tried!
+     [java] 15509200 executions tried!
+     [java] 15536048 executions tried!
+     [java] 15563507 executions tried!
+     [java] 15590832 executions tried!
+     [java] 15618099 executions tried!
+     [java] 15645547 executions tried!
+     [java] 15672885 executions tried!
+     [java] 15700384 executions tried!
+     [java] 15727830 executions tried!
+     [java] 15756058 executions tried!
+     [java] 15784117 executions tried!
+     [java] 15811711 executions tried!
+     [java] 15839255 executions tried!
+     [java] 15866825 executions tried!
+     [java] 15894634 executions tried!
+     [java] 15921549 executions tried!
+     [java] 15948667 executions tried!
+     [java] 15975769 executions tried!
+     [java] 16002983 executions tried!
+     [java] 16030856 executions tried!
+     [java] 16058470 executions tried!
+     [java] 16086836 executions tried!
+     [java] 16114826 executions tried!
+     [java] 16142424 executions tried!
+     [java] 16170095 executions tried!
+     [java] 16197537 executions tried!
+     [java] 16224630 executions tried!
+     [java] 16251950 executions tried!
+     [java] 16279408 executions tried!
+     [java] 16306870 executions tried!
+     [java] 16334241 executions tried!
+     [java] 16361727 executions tried!
+     [java] 16388853 executions tried!
+     [java] 16417259 executions tried!
+     [java] 16445458 executions tried!
+     [java] 16472965 executions tried!
+     [java] 16500582 executions tried!
+     [java] 16527695 executions tried!
+     [java] 16554938 executions tried!
+     [java] 16582476 executions tried!
+     [java] 16609983 executions tried!
+     [java] 16637297 executions tried!
+     [java] 16664682 executions tried!
+     [java] 16692079 executions tried!
+     [java] 16719195 executions tried!
+     [java] 16747845 executions tried!
+     [java] 16775795 executions tried!
+     [java] 16803202 executions tried!
+     [java] 16830955 executions tried!
+     [java] 16857982 executions tried!
+     [java] 16885132 executions tried!
+     [java] 16912343 executions tried!
+     [java] 16939490 executions tried!
+     [java] 16966806 executions tried!
+     [java] 16994104 executions tried!
+     [java] 17021500 executions tried!
+     [java] 17048790 executions tried!
+     [java] 17077232 executions tried!
+     [java] 17105263 executions tried!
+     [java] 17133028 executions tried!
+     [java] 17160760 executions tried!
+     [java] 17188272 executions tried!
+     [java] 17215422 executions tried!
+     [java] 17242878 executions tried!
+     [java] 17270129 executions tried!
+     [java] 17297662 executions tried!
+     [java] 17325149 executions tried!
+     [java] 17352611 executions tried!
+     [java] 17380057 executions tried!
+     [java] 17408296 executions tried!
+     [java] 17436459 executions tried!
+     [java] 17464004 executions tried!
+     [java] 17491668 executions tried!
+     [java] 17519183 executions tried!
+     [java] 17546481 executions tried!
+     [java] 17573825 executions tried!
+     [java] 17600680 executions tried!
+     [java] 17627740 executions tried!
+     [java] 17654777 executions tried!
+     [java] 17681684 executions tried!
+     [java] 17710372 executions tried!
+     [java] 17740356 executions tried!
+     [java] 17769784 executions tried!
+     [java] 17799091 executions tried!
+     [java] 17828197 executions tried!
+     [java] 17855040 executions tried!
+     [java] 17881873 executions tried!
+     [java] 17908977 executions tried!
+     [java] 17936006 executions tried!
+     [java] 17962992 executions tried!
+     [java] 17990264 executions tried!
+     [java] 18017369 executions tried!
+     [java] 18044585 executions tried!
+     [java] 18072756 executions tried!
+     [java] 18100736 executions tried!
+     [java] 18128145 executions tried!
+     [java] 18155591 executions tried!
+     [java] 18182803 executions tried!
+     [java] 18209988 executions tried!
+     [java] 18237136 executions tried!
+     [java] 18264256 executions tried!
+     [java] 18291353 executions tried!
+     [java] 18318397 executions tried!
+     [java] 18345598 executions tried!
+     [java] 18372748 executions tried!
+     [java] 18401119 executions tried!
+     [java] 18429139 executions tried!
+     [java] 18456600 executions tried!
+     [java] 18484228 executions tried!
+     [java] 18511256 executions tried!
+     [java] 18538485 executions tried!
+     [java] 18565702 executions tried!
+     [java] 18593019 executions tried!
+     [java] 18620367 executions tried!
+     [java] 18647523 executions tried!
+     [java] 18674771 executions tried!
+     [java] 18701887 executions tried!
+     [java] 18730320 executions tried!
+     [java] 18758342 executions tried!
+     [java] 18785836 executions tried!
+     [java] 18813552 executions tried!
+     [java] 18840652 executions tried!
+     [java] 18868014 executions tried!
+     [java] 18895438 executions tried!
+     [java] 18922685 executions tried!
+     [java] 18949780 executions tried!
+     [java] 18976987 executions tried!
+     [java] 19004036 executions tried!
+     [java] 19031352 executions tried!
+     [java] 19059597 executions tried!
+     [java] 19087625 executions tried!
+     [java] 19115134 executions tried!
+     [java] 19142770 executions tried!
+     [java] 19169996 executions tried!
+     [java] 19197182 executions tried!
+     [java] 19224368 executions tried!
+     [java] 19251618 executions tried!
+     [java] 19278849 executions tried!
+     [java] 19306190 executions tried!
+     [java] 19333449 executions tried!
+     [java] 19360633 executions tried!
+     [java] 19389262 executions tried!
+     [java] 19417325 executions tried!
+     [java] 19444684 executions tried!
+     [java] 19472354 executions tried!
+     [java] 19499522 executions tried!
+     [java] 19526605 executions tried!
+     [java] 19553857 executions tried!
+     [java] 19581145 executions tried!
+     [java] 19608238 executions tried!
+     [java] 19635417 executions tried!
+     [java] Timeout! Max execution time: 3600 seconds.
+     [java] Number of invocations tried: 496247
+     [java] Search depth: 4
+     [java] Number of executions: 19662389
+
+BUILD SUCCESSFUL
+Total time: 60 minutes 0 seconds

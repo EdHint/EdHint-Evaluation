@@ -1,0 +1,62 @@
+Buildfile: /Users/josh/Study/courses/Master_Report/ASE-17/experiments/benchmarks/math/8/build.xml
+
+run:
+     [java] 1 executions tried!
+     [java] Classes found with package prefix "org.apache.commons.math.stat": [class org.apache.commons.math.stat.descriptive.StatisticalSummaryValues, class org.apache.commons.math.stat.descriptive.rank.Min, class org.apache.commons.math.stat.descriptive.DescriptiveStatistics, class org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics, class org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic, class org.apache.commons.math.stat.descriptive.moment.StandardDeviation, class org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics, interface org.apache.commons.math.stat.descriptive.WeightedEvaluation, class org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatistics, class org.apache.commons.math.stat.descriptive.moment.Mean, class org.apache.commons.math.stat.descriptive.moment.VectorialCovariance, class org.apache.commons.math.stat.descriptive.moment.ThirdMoment, class org.apache.commons.math.stat.descriptive.rank.Percentile, class org.apache.commons.math.stat.descriptive.moment.Skewness, class org.apache.commons.math.stat.descriptive.moment.FourthMoment, class org.apache.commons.math.stat.ranking.NaturalRanking, class org.apache.commons.math.stat.descriptive.summary.SumOfSquares, class org.apache.commons.math.stat.Frequency$NaturalComparator, class org.apache.commons.math.stat.regression.AbstractMultipleLinearRegression, class org.apache.commons.math.stat.ranking.NaNStrategy, class org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$EmptyClusterStrategy, class org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatistics, class org.apache.commons.math.stat.descriptive.moment.FirstMoment, class org.apache.commons.math.stat.descriptive.moment.Variance, class org.apache.commons.math.stat.inference.ChiSquareTestImpl, class org.apache.commons.math.stat.correlation.Covariance, class org.apache.commons.math.stat.correlation.SpearmansCorrelation, class org.apache.commons.math.stat.correlation.PearsonsCorrelation, class org.apache.commons.math.stat.descriptive.moment.SecondMoment, class org.apache.commons.math.stat.descriptive.summary.SumOfLogs, interface org.apache.commons.math.stat.clustering.Clusterable, class org.apache.commons.math.stat.descriptive.rank.Median, interface org.apache.commons.math.stat.inference.ChiSquareTest, class org.apache.commons.math.stat.clustering.EuclideanIntegerPoint, interface org.apache.commons.math.stat.regression.MultipleLinearRegression, class org.apache.commons.math.stat.descriptive.summary.Sum, class org.apache.commons.math.stat.StatUtils, class org.apache.commons.math.stat.inference.OneWayAnovaImpl$AnovaStats, class org.apache.commons.math.stat.descriptive.moment.Kurtosis, class org.apache.commons.math.stat.Frequency$1, interface org.apache.commons.math.stat.inference.UnknownDistributionChiSquareTest, class org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer$1, class org.apache.commons.math.stat.ranking.NaturalRanking$IntDoublePair, class org.apache.commons.math.stat.descriptive.rank.Max, class org.apache.commons.math.stat.regression.OLSMultipleLinearRegression, class org.apache.commons.math.stat.inference.OneWayAnovaImpl, interface org.apache.commons.math.stat.descriptive.StatisticalMultivariateSummary, interface org.apache.commons.math.stat.inference.TTest, class org.apache.commons.math.stat.descriptive.summary.Product, class org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics$AggregatingSummaryStatistics, class org.apache.commons.math.stat.regression.SimpleRegression, class org.apache.commons.math.stat.descriptive.SynchronizedMultivariateSummaryStatistics, interface org.apache.commons.math.stat.ranking.RankingAlgorithm, class org.apache.commons.math.stat.inference.OneWayAnovaImpl$1, class org.apache.commons.math.stat.descriptive.moment.SemiVariance, interface org.apache.commons.math.stat.descriptive.StorelessUnivariateStatistic, interface org.apache.commons.math.stat.descriptive.StatisticalSummary, class org.apache.commons.math.stat.inference.TTestImpl, class org.apache.commons.math.stat.descriptive.SummaryStatistics, interface org.apache.commons.math.stat.descriptive.UnivariateStatistic, class org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer, interface org.apache.commons.math.stat.inference.OneWayAnova, class org.apache.commons.math.stat.ranking.NaturalRanking$1, class org.apache.commons.math.stat.inference.TestUtils, class org.apache.commons.math.stat.clustering.Cluster, class org.apache.commons.math.stat.ranking.TiesStrategy, class org.apache.commons.math.stat.descriptive.moment.VectorialMean, class org.apache.commons.math.stat.regression.GLSMultipleLinearRegression, class org.apache.commons.math.stat.descriptive.moment.GeometricMean, class org.apache.commons.math.stat.descriptive.moment.SemiVariance$Direction, class org.apache.commons.math.stat.Frequency, class org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic]
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 3
+     [java] }
+     [java] 
+     [java] 762 executions tried!
+     [java] Found solution:
+     [java] ----------------------------------------------------------------
+     [java] org.apache.commons.math.stat.regression.SimpleRegression res0 = new org.apache.commons.math.stat.regression.SimpleRegression();
+     [java] res0.addData(arg0);
+     [java] double res2 = res0.predict(arg1);
+     [java] return res2;
+     [java] 
+     [java] ----------------------------------------------------------------
+     [java] Number of invocations tried: 24
+     [java] Search depth: 3
+     [java] Number of executions: 3700
+
+BUILD SUCCESSFUL
+Total time: 8 minutes 37 seconds

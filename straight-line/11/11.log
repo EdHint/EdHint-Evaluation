@@ -1,0 +1,115 @@
+Buildfile: /Users/josh/Study/courses/Master_Report/ASE-17/experiments/benchmarks/geometry/11/build.xml
+
+run:
+     [java] 1 executions tried!
+     [java] Classes found with package prefix "java.awt.geom": [class java.awt.geom.Rectangle2D, class java.awt.geom.Area, class java.awt.geom.QuadCurve2D$Double, class java.awt.geom.Arc2D$Float, class java.awt.geom.ArcIterator, class java.awt.geom.Path2D$Double$TxIterator, class java.awt.geom.QuadIterator, class java.awt.geom.Line2D$Double, class java.awt.geom.Arc2D$Double, class java.awt.geom.LineIterator, class java.awt.geom.RoundRectangle2D, class java.awt.geom.Arc2D, class java.awt.geom.Path2D$Float$TxIterator, class java.awt.geom.Ellipse2D$Double, class java.awt.geom.Point2D$Float, class java.awt.geom.Path2D, class java.awt.geom.QuadCurve2D$Float, class java.awt.geom.Rectangle2D$Double, class java.awt.geom.AreaIterator, class java.awt.geom.AffineTransform, class java.awt.geom.Line2D, class java.awt.geom.FlatteningPathIterator, class java.awt.geom.Path2D$Float$CopyIterator, class java.awt.geom.Point2D$Double, class java.awt.geom.Path2D$Float, class java.awt.geom.CubicCurve2D$Float, class java.awt.geom.RoundRectangle2D$Double, class java.awt.geom.CubicIterator, class java.awt.geom.Path2D$Double, class java.awt.geom.Dimension2D, class java.awt.geom.RectangularShape, class java.awt.geom.Path2D$Iterator, class java.awt.geom.Ellipse2D, class java.awt.geom.Ellipse2D$Float, class java.awt.geom.Point2D, class java.awt.geom.Path2D$Double$CopyIterator, class java.awt.geom.Rectangle2D$Float, class java.awt.geom.RoundRectangle2D$Float, class java.awt.geom.GeneralPath, class java.awt.geom.RectIterator, class java.awt.geom.QuadCurve2D, class java.awt.geom.NoninvertibleTransformException, class java.awt.geom.RoundRectIterator, class java.awt.geom.CubicCurve2D, class java.awt.geom.Line2D$Float, interface java.awt.geom.PathIterator, class java.awt.geom.EllipseIterator, class java.awt.geom.CubicCurve2D$Double, class java.awt.geom.IllegalPathStateException]
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] 105497 executions tried!
+     [java] 508043 executions tried!
+     [java] 1015894 executions tried!
+     [java] 1532304 executions tried!
+     [java] 2048127 executions tried!
+     [java] 2570256 executions tried!
+     [java] 3089513 executions tried!
+     [java] 3601648 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 3918565 executions tried!
+     [java] 4442622 executions tried!
+     [java] 4909894 executions tried!
+     [java] 5391169 executions tried!
+     [java] 5450538 executions tried!
+     [java] 5477611 executions tried!
+     [java] 5504942 executions tried!
+     [java] 5820974 executions tried!
+     [java] 6482781 executions tried!
+     [java] 7125393 executions tried!
+     [java] 7741586 executions tried!
+     [java] 8337514 executions tried!
+     [java] 8962600 executions tried!
+     [java] 9611569 executions tried!
+     [java] 10265167 executions tried!
+     [java] 10918844 executions tried!
+     [java] 11569911 executions tried!
+     [java] 12224916 executions tried!
+     [java] 12872904 executions tried!
+     [java] 13527327 executions tried!
+     [java] 14173824 executions tried!
+     [java] 14822677 executions tried!
+     [java] 15224238 executions tried!
+     [java] 15851952 executions tried!
+     [java] 16499814 executions tried!
+     [java] 16771103 executions tried!
+     [java] 17042133 executions tried!
+     [java] 17679643 executions tried!
+     [java] 18321683 executions tried!
+     [java] 18955946 executions tried!
+     [java] 19595394 executions tried!
+     [java] 20241589 executions tried!
+     [java] 20866451 executions tried!
+     [java] 21507742 executions tried!
+     [java] 22143104 executions tried!
+     [java] 22766431 executions tried!
+     [java] 23402041 executions tried!
+     [java] 24026786 executions tried!
+     [java] 24335932 executions tried!
+     [java] 24361385 executions tried!
+     [java] 24952957 executions tried!
+     [java] 25557351 executions tried!
+     [java] 26198912 executions tried!
+     [java] 26849522 executions tried!
+     [java] 27490985 executions tried!
+     [java] 28132780 executions tried!
+     [java] 28778184 executions tried!
+     [java] 29403065 executions tried!
+     [java] 30045847 executions tried!
+     [java] 30693162 executions tried!
+     [java] 31329971 executions tried!
+     [java] 31892172 executions tried!
+     [java] 31929248 executions tried!
+     [java] Found solution:
+     [java] ----------------------------------------------------------------
+     [java] java.awt.geom.AffineTransform res0 = java.awt.geom.AffineTransform.getShearInstance(arg1, arg2);
+     [java] java.awt.Shape res1 = res0.createTransformedShape(arg0);
+     [java] java.awt.geom.Rectangle2D res2 = res1.getBounds2D();
+     [java] return res2;
+     [java] 
+     [java] ----------------------------------------------------------------
+     [java] Number of invocations tried: 31432847
+     [java] Search depth: 3
+     [java] Number of executions: 31948056
+
+BUILD SUCCESSFUL
+Total time: 5 minutes 8 seconds

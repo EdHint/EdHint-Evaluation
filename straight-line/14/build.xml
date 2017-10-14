@@ -1,0 +1,38 @@
+<project name="1" default="compile">
+
+  <property name="src"          value="${basedir}/src"/>
+  <property name="build"        value="${basedir}/bin"/>
+  <property name="libs"         value="${basedir}/../../libs"/>
+
+  <path id="compile-classpath">
+    <fileset dir="${libs}">
+        <include name="*.jar"/>
+    </fileset>
+    <pathelement location="${build}"/>
+  </path>	
+	
+  <path id="runtime-classpath">
+    <fileset dir="${libs}">
+        <include name="*.jar"/>
+    </fileset>
+    <pathelement location="${build}"/>
+  </path>
+	
+  <target name="run">
+    <java classname="Main" classpathref="runtime-classpath" fork="yes" failonerror="yes">
+      <arg line="${args}"/>
+    </java>
+  </target>
+
+  <target name="compile" depends="clean">
+    <mkdir dir="${build}"/>
+    <javac srcdir="${src}" destdir="${build}" debug="on" source="1.8" target="1.8">
+      <classpath refid="compile-classpath"/>
+      <include name="**/*.java"/>
+    </javac>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build}"/>
+  </target>
+</project>

@@ -1,0 +1,63 @@
+Buildfile: /Users/josh/Study/courses/Master_Report/ASE-17/experiments/benchmarks/xml/28/build.xml
+
+run:
+     [java] 1 executions tried!
+     [java] Classes found with package prefix "org.w3c.dom": [interface org.w3c.dom.CDATASection, interface org.w3c.dom.Comment, interface org.w3c.dom.html.HTMLFontElement, interface org.w3c.dom.html.HTMLOListElement, class org.w3c.dom.xpath.XPathException, interface org.w3c.dom.html.HTMLTableElement, interface org.w3c.dom.html.HTMLFormElement, interface org.w3c.dom.html.HTMLOptGroupElement, class org.w3c.dom.ls.LSException, interface org.w3c.dom.html.HTMLTitleElement, interface org.w3c.dom.css.RGBColor, interface org.w3c.dom.html.HTMLIFrameElement, interface org.w3c.dom.html.HTMLFrameSetElement, interface org.w3c.dom.html.HTMLTableCellElement, interface org.w3c.dom.traversal.NodeFilter, interface org.w3c.dom.html.HTMLAreaElement, interface org.w3c.dom.ls.LSParserFilter, interface org.w3c.dom.html.HTMLModElement, interface org.w3c.dom.Element, interface org.w3c.dom.html.HTMLInputElement, interface org.w3c.dom.html.HTMLTableColElement, interface org.w3c.dom.ls.LSSerializerFilter, interface org.w3c.dom.Attr, class org.w3c.dom.events.EventException, interface org.w3c.dom.xpath.XPathResult, interface org.w3c.dom.CharacterData, interface org.w3c.dom.Text, interface org.w3c.dom.html.HTMLElement, interface org.w3c.dom.css.CSSRuleList, interface org.w3c.dom.css.CSSUnknownRule, interface org.w3c.dom.html.HTMLSelectElement, interface org.w3c.dom.traversal.DocumentTraversal, interface org.w3c.dom.html.HTMLHtmlElement, interface org.w3c.dom.xpath.XPathNSResolver, interface org.w3c.dom.html.HTMLDocument, interface org.w3c.dom.DOMError, interface org.w3c.dom.css.Counter, interface org.w3c.dom.events.Event, interface org.w3c.dom.html.HTMLIsIndexElement, interface org.w3c.dom.html.HTMLMetaElement, interface org.w3c.dom.html.HTMLImageElement, interface org.w3c.dom.stylesheets.MediaList, interface org.w3c.dom.css.CSSStyleDeclaration, class org.w3c.dom.DOMException, interface org.w3c.dom.events.MutationEvent, interface org.w3c.dom.html.HTMLStyleElement, interface org.w3c.dom.Notation, interface org.w3c.dom.html.HTMLTableSectionElement, interface org.w3c.dom.TypeInfo, interface org.w3c.dom.Node, interface org.w3c.dom.events.EventTarget, interface org.w3c.dom.ls.LSLoadEvent, interface org.w3c.dom.css.CSSFontFaceRule, interface org.w3c.dom.html.HTMLBaseElement, interface org.w3c.dom.html.HTMLAnchorElement, class org.w3c.dom.ranges.RangeException, class org.w3c.dom.bootstrap.DOMImplementationRegistry, class org.w3c.dom.bootstrap.DOMImplementationRegistry$3, interface org.w3c.dom.traversal.TreeWalker, interface org.w3c.dom.NamedNodeMap, interface org.w3c.dom.html.HTMLCollection, interface org.w3c.dom.stylesheets.StyleSheetList, interface org.w3c.dom.css.CSS2Properties, interface org.w3c.dom.events.UIEvent, interface org.w3c.dom.DOMImplementation, interface org.w3c.dom.html.HTMLHRElement, interface org.w3c.dom.Entity, interface org.w3c.dom.Document, interface org.w3c.dom.events.DocumentEvent, interface org.w3c.dom.ranges.DocumentRange, interface org.w3c.dom.html.HTMLTableRowElement, interface org.w3c.dom.ls.DOMImplementationLS, interface org.w3c.dom.html.HTMLLegendElement, interface org.w3c.dom.html.HTMLTableCaptionElement, interface org.w3c.dom.html.HTMLLIElement, interface org.w3c.dom.css.CSSRule, interface org.w3c.dom.DOMConfiguration, interface org.w3c.dom.html.HTMLHeadElement, interface org.w3c.dom.html.HTMLLabelElement, class org.w3c.dom.bootstrap.DOMImplementationRegistry$1, interface org.w3c.dom.html.HTMLUListElement, interface org.w3c.dom.ls.LSInput, interface org.w3c.dom.html.HTMLParagraphElement, interface org.w3c.dom.stylesheets.DocumentStyle, interface org.w3c.dom.traversal.NodeIterator, interface org.w3c.dom.NodeList, interface org.w3c.dom.css.DOMImplementationCSS, class org.w3c.dom.bootstrap.DOMImplementationRegistry$4, interface org.w3c.dom.html.HTMLDivElement, interface org.w3c.dom.css.DocumentCSS, interface org.w3c.dom.xpath.XPathExpression, interface org.w3c.dom.NameList, interface org.w3c.dom.css.CSSImportRule, interface org.w3c.dom.html.HTMLObjectElement, interface org.w3c.dom.events.EventListener, interface org.w3c.dom.DOMImplementationSource, class org.w3c.dom.bootstrap.DOMImplementationRegistry$2, interface org.w3c.dom.ls.LSOutput, interface org.w3c.dom.css.CSSPrimitiveValue, interface org.w3c.dom.html.HTMLLinkElement, interface org.w3c.dom.html.HTMLScriptElement, interface org.w3c.dom.html.HTMLDirectoryElement, interface org.w3c.dom.html.HTMLParamElement, interface org.w3c.dom.html.HTMLAppletElement, interface org.w3c.dom.EntityReference, interface org.w3c.dom.DocumentFragment, interface org.w3c.dom.html.HTMLDListElement, interface org.w3c.dom.ProcessingInstruction, interface org.w3c.dom.views.AbstractView, interface org.w3c.dom.xpath.XPathNamespace, interface org.w3c.dom.css.CSSStyleSheet, interface org.w3c.dom.css.CSSCharsetRule, interface org.w3c.dom.DOMImplementationList, interface org.w3c.dom.css.CSSValueList, interface org.w3c.dom.html.HTMLFrameElement, interface org.w3c.dom.html.HTMLMenuElement, interface org.w3c.dom.css.CSSMediaRule, interface org.w3c.dom.html.HTMLTextAreaElement, interface org.w3c.dom.html.HTMLBaseFontElement, interface org.w3c.dom.html.HTMLFieldSetElement, interface org.w3c.dom.DOMStringList, interface org.w3c.dom.html.HTMLBRElement, interface org.w3c.dom.html.HTMLBodyElement, interface org.w3c.dom.DOMLocator, interface org.w3c.dom.xpath.XPathEvaluator, interface org.w3c.dom.css.CSSStyleRule, interface org.w3c.dom.ls.LSResourceResolver, interface org.w3c.dom.html.HTMLPreElement, interface org.w3c.dom.css.CSSPageRule, interface org.w3c.dom.html.HTMLDOMImplementation, interface org.w3c.dom.stylesheets.StyleSheet, interface org.w3c.dom.events.MouseEvent, interface org.w3c.dom.ls.LSParser, interface org.w3c.dom.html.HTMLOptionElement, interface org.w3c.dom.css.CSSValue, interface org.w3c.dom.css.ViewCSS, interface org.w3c.dom.ls.LSProgressEvent, interface org.w3c.dom.css.Rect, interface org.w3c.dom.html.HTMLHeadingElement, interface org.w3c.dom.stylesheets.LinkStyle, interface org.w3c.dom.html.HTMLMapElement, interface org.w3c.dom.UserDataHandler, interface org.w3c.dom.ls.LSSerializer, interface org.w3c.dom.ranges.Range, interface org.w3c.dom.DOMErrorHandler, interface org.w3c.dom.html.HTMLButtonElement, interface org.w3c.dom.DocumentType, interface org.w3c.dom.views.DocumentView, interface org.w3c.dom.css.ElementCSSInlineStyle, interface org.w3c.dom.html.HTMLQuoteElement]
+     [java] Classes found with package prefix "javax.xml.parsers": [class javax.xml.parsers.SAXParser, class javax.xml.parsers.SecuritySupport$1, class javax.xml.parsers.FactoryFinder, class javax.xml.parsers.SecuritySupport$3, class javax.xml.parsers.DocumentBuilderFactory, class javax.xml.parsers.SAXParserFactory, class javax.xml.parsers.ParserConfigurationException, class javax.xml.parsers.SecuritySupport$2, class javax.xml.parsers.DocumentBuilder, class javax.xml.parsers.FactoryConfigurationError, class javax.xml.parsers.FactoryFinder$1, class javax.xml.parsers.SecuritySupport$5, class javax.xml.parsers.SecuritySupport$4, class javax.xml.parsers.SecuritySupport, class javax.xml.parsers.FactoryFinder$ConfigurationError]
+     [java] Classes found with package prefix "org.xml.sax": [interface org.xml.sax.ext.Attributes2, class org.xml.sax.ext.DefaultHandler2, interface org.xml.sax.ext.EntityResolver2, class org.xml.sax.helpers.ParserFactory, class org.xml.sax.ext.Locator2Impl, interface org.xml.sax.XMLFilter, class org.xml.sax.helpers.NewInstance, interface org.xml.sax.XMLReader, class org.xml.sax.helpers.SecuritySupport$4, interface org.xml.sax.ext.LexicalHandler, interface org.xml.sax.Parser, class org.xml.sax.helpers.LocatorImpl, interface org.xml.sax.Locator, class org.xml.sax.SAXException, interface org.xml.sax.ext.Locator2, class org.xml.sax.helpers.SecuritySupport$2, interface org.xml.sax.DTDHandler, interface org.xml.sax.ext.DeclHandler, class org.xml.sax.helpers.SecuritySupport$1, class org.xml.sax.HandlerBase, class org.xml.sax.SAXParseException, class org.xml.sax.helpers.XMLReaderAdapter$AttributesAdapter, class org.xml.sax.SAXNotRecognizedException, class org.xml.sax.helpers.ParserAdapter, interface org.xml.sax.ContentHandler, interface org.xml.sax.DocumentHandler, class org.xml.sax.helpers.ParserAdapter$AttributeListAdapter, interface org.xml.sax.ErrorHandler, class org.xml.sax.helpers.SecuritySupport$3, class org.xml.sax.helpers.SecuritySupport$5, class org.xml.sax.helpers.SecuritySupport, class org.xml.sax.helpers.NamespaceSupport, class org.xml.sax.SAXNotSupportedException, class org.xml.sax.helpers.XMLReaderFactory, class org.xml.sax.helpers.XMLReaderAdapter, class org.xml.sax.helpers.AttributesImpl, interface org.xml.sax.EntityResolver, class org.xml.sax.helpers.DefaultHandler, interface org.xml.sax.Attributes, class org.xml.sax.helpers.AttributeListImpl, class org.xml.sax.helpers.NamespaceSupport$Context, class org.xml.sax.helpers.XMLFilterImpl, interface org.xml.sax.AttributeList, class org.xml.sax.ext.Attributes2Impl, class org.xml.sax.InputSource]
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 3
+     [java]     returnId: 2
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 3
+     [java] }
+     [java] 
+     [java] Found solution:
+     [java] ----------------------------------------------------------------
+     [java] javax.xml.parsers.DocumentBuilderFactory res0 = javax.xml.parsers.DocumentBuilderFactory.newInstance();
+     [java] javax.xml.parsers.DocumentBuilder res1 = res0.newDocumentBuilder();
+     [java] org.w3c.dom.Document res2 = res1.parse(arg0);
+     [java] return res2;
+     [java] 
+     [java] ----------------------------------------------------------------
+     [java] Number of invocations tried: 1
+     [java] Search depth: 3
+     [java] Number of executions: 3932
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
