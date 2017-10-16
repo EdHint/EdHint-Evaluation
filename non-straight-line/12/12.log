@@ -1,0 +1,87 @@
+Buildfile: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/ant/build.xml
+
+initialise:
+
+compile:
+    [mkdir] Created dir: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/ant/build.xml:57: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 654 source files to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build
+    [javac] Note: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/source/org/jfree/chart/plot/XYPlot.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 1 file to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build/org/jfree/chart
+     [copy] Copying 12 files to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build/org/jfree/chart
+     [copy] Copying 9 files to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build/org/jfree/chart/plot
+     [copy] Copying 10 files to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build/org/jfree/chart/editor
+     [copy] Copying 5 files to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build/org/jfree/chart/ui
+      [jar] Building jar: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/jfreechart-1.2.0-ea1.jar
+   [delete] Deleting directory /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build
+
+compile-experimental:
+    [mkdir] Created dir: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/ant/build.xml:116: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build
+      [jar] Building jar: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/jfreechart-1.2.0-ea1-experimental.jar
+   [delete] Deleting directory /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/build
+
+compile-tests:
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Chart_1/ant/build.xml:307: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+synthesis:
+     [java] 1 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Found solution:
+     [java] ----------------------------------------------------------------
+     [java] Hole 0:
+     [java] org.jfree.chart.axis.SegmentedTimeline.Segment res0 = this.baseSegment.getSegment(domainValue);
+     [java] return res0;
+     [java] 
+     [java] Hole 1:
+     [java] boolean res0 = baseSegment.inIncludeSegments();
+     [java] return res0;
+     [java] 
+     [java] Hole 2:
+     [java] java.util.Date res0 = baseSegment.getDate();
+     [java] org.jfree.chart.axis.SegmentedTimeline.Segment res1 = this.getSegment(res0);
+     [java] return res1;
+     [java] 
+     [java] ----------------------------------------------------------------
+     [java] Number of executions: 23
+
+BUILD SUCCESSFUL
+Total time: 13 seconds

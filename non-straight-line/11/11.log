@@ -1,0 +1,78 @@
+Buildfile: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Math_59/build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Math_59/build.xml:165: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+
+download-junit:
+     [echo] Downloading junit...
+      [get] Getting: http://repo1.maven.org/maven2/junit/junit/4.4/junit-4.4.jar
+      [get] To: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Math_59/lib/junit-4.4.jar
+      [get] Not modified - so not downloaded
+
+compile.tests:
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Math_59/build.xml:179: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+synthesis:
+     [java] 1 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] Found solution:
+     [java] ----------------------------------------------------------------
+     [java] Hole 0:
+     [java] boolean res0 = iter.hasNext();
+     [java] return res0;
+     [java] 
+     [java] Hole 1:
+     [java] iter.advance();
+     [java] 
+     [java] Hole 2:
+     [java] double res0 = iter.value();
+     [java] res.setEntry(iter.key() + virtualSize, res0);
+     [java] 
+     [java] ----------------------------------------------------------------
+     [java] Number of executions: 53
+
+BUILD SUCCESSFUL
+Total time: 1 second
