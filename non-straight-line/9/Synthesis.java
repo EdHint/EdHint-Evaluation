@@ -6,10 +6,10 @@ import org.junit.runner.Result;
 
 public class Synthesis {
     public static void main(String[] args) {
-        BatchInvocationRequest request = com.google.javascript.jscomp.CollapseProperties.request;
-        Class<?> test = com.google.javascript.jscomp.CollapsePropertiesTest.class;
+        BatchInvocationRequest request = com.google.javascript.jscomp.CollapseVariableDeclarations.request;
+        Class<?> test = com.google.javascript.jscomp.CollapseVariableDeclarationsTest.class;
         JUnitCore junit = new JUnitCore();
-        int numOfHoles = 4;
+        int numOfHoles = 3;
 
         int maxTime = 3600;
         SketchExecutor.setType(ExecutorType.JUZI);

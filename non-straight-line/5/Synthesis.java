@@ -6,8 +6,8 @@ import org.junit.runner.Result;
 
 public class Synthesis {
     public static void main(String[] args) {
-        BatchInvocationRequest request = com.google.javascript.jscomp.CollapseProperties.request;
-        Class<?> test = com.google.javascript.jscomp.CollapsePropertiesTest.class;
+        BatchInvocationRequest request = org.apache.commons.math.linear.OpenMapRealVector.request;
+        Class<?> test = org.apache.commons.math.linear.SparseRealVectorTest.class;
         JUnitCore junit = new JUnitCore();
         int numOfHoles = 4;
 

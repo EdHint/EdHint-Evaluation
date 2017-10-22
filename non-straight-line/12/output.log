@@ -1,0 +1,1255 @@
+Buildfile: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml
+
+rhino:
+
+properties:
+
+init:
+
+compile:
+
+compile-most:
+
+compile-jdk15:
+
+compile:
+
+properties:
+
+compile:
+
+xmlimplsrc-compile:
+     [echo] Calling /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/lib/rhino/xmlimplsrc/build.xml
+
+compile:
+
+compile-all:
+
+compile:
+
+jar:
+
+rhino-jarjar:
+   [jarjar] Updating jar: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build/lib/rhino.jar
+
+svnversion:
+
+compile:
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml:264: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml:270: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build/classes
+[propertyfile] Updating property file: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+
+compile-tests:
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml:338: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build/test
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml:344: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+synthesis:
+     [java] 1 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 65 executions tried!
+     [java] 210 executions tried!
+     [java] 398 executions tried!
+     [java] 697 executions tried!
+     [java] 1054 executions tried!
+     [java] 1460 executions tried!
+     [java] 1908 executions tried!
+     [java] 2387 executions tried!
+     [java] 2839 executions tried!
+     [java] 3295 executions tried!
+     [java] 3657 executions tried!
+     [java] 4137 executions tried!
+     [java] 4599 executions tried!
+     [java] 5091 executions tried!
+     [java] 5501 executions tried!
+     [java] 5959 executions tried!
+     [java] 6416 executions tried!
+     [java] 6869 executions tried!
+     [java] 7337 executions tried!
+     [java] 7835 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 8342 executions tried!
+     [java] 8858 executions tried!
+     [java] 9343 executions tried!
+     [java] 9784 executions tried!
+     [java] 10277 executions tried!
+     [java] 10765 executions tried!
+     [java] 11256 executions tried!
+     [java] 11694 executions tried!
+     [java] 12125 executions tried!
+     [java] 12580 executions tried!
+     [java] 13040 executions tried!
+     [java] 13506 executions tried!
+     [java] 13970 executions tried!
+     [java] 14479 executions tried!
+     [java] 14974 executions tried!
+     [java] 15489 executions tried!
+     [java] 16002 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 16490 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 16979 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 17467 executions tried!
+     [java] 17949 executions tried!
+     [java] 18441 executions tried!
+     [java] 18876 executions tried!
+     [java] 19285 executions tried!
+     [java] 19748 executions tried!
+     [java] 20206 executions tried!
+     [java] 20688 executions tried!
+     [java] 21176 executions tried!
+     [java] 21690 executions tried!
+     [java] 22204 executions tried!
+     [java] 22714 executions tried!
+     [java] 23229 executions tried!
+     [java] 23751 executions tried!
+     [java] 24258 executions tried!
+     [java] 24770 executions tried!
+     [java] 25247 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 25728 executions tried!
+     [java] 26220 executions tried!
+     [java] 26712 executions tried!
+     [java] 27212 executions tried!
+     [java] 27655 executions tried!
+     [java] 28104 executions tried!
+     [java] 28565 executions tried!
+     [java] 29030 executions tried!
+     [java] 29524 executions tried!
+     [java] 30016 executions tried!
+     [java] 30521 executions tried!
+     [java] 31031 executions tried!
+     [java] 31537 executions tried!
+     [java] 32052 executions tried!
+     [java] 32571 executions tried!
+     [java] 33055 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 33564 executions tried!
+     [java] 34050 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 34536 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 35024 executions tried!
+     [java] 35518 executions tried!
+     [java] 36002 executions tried!
+     [java] 36442 executions tried!
+     [java] 36895 executions tried!
+     [java] 37350 executions tried!
+     [java] 37811 executions tried!
+     [java] 38279 executions tried!
+     [java] 38737 executions tried!
+     [java] 39232 executions tried!
+     [java] 39741 executions tried!
+     [java] 40254 executions tried!
+     [java] 40767 executions tried!
+     [java] 41283 executions tried!
+     [java] 41796 executions tried!
+     [java] 42312 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] 42822 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 43336 executions tried!
+     [java] 43847 executions tried!
+     [java] 44314 executions tried!
+     [java] 44753 executions tried!
+     [java] 45259 executions tried!
+     [java] 45771 executions tried!
+     [java] 46281 executions tried!
+     [java] 46788 executions tried!
+     [java] 47298 executions tried!
+     [java] 47809 executions tried!
+     [java] 48327 executions tried!
+     [java] 48833 executions tried!
+     [java] 49340 executions tried!
+     [java] 49852 executions tried!
+     [java] 50345 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 50856 executions tried!
+     [java] 51373 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 51888 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 52401 executions tried!
+     [java] 52916 executions tried!
+     [java] 53433 executions tried!
+     [java] 53940 executions tried!
+     [java] 54456 executions tried!
+     [java] 54969 executions tried!
+     [java] 55478 executions tried!
+     [java] 55996 executions tried!
+     [java] 56510 executions tried!
+     [java] 57016 executions tried!
+     [java] 57563 executions tried!
+     [java] 58070 executions tried!
+     [java] 58580 executions tried!
+     [java] 59091 executions tried!
+     [java] 59606 executions tried!
+     [java] 60119 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 60627 executions tried!
+     [java] 61138 executions tried!
+     [java] 61640 executions tried!
+     [java] 62133 executions tried!
+     [java] 62643 executions tried!
+     [java] 63153 executions tried!
+     [java] 63670 executions tried!
+     [java] 64175 executions tried!
+     [java] 64682 executions tried!
+     [java] 65191 executions tried!
+     [java] 65708 executions tried!
+     [java] 66223 executions tried!
+     [java] 66738 executions tried!
+     [java] 67252 executions tried!
+     [java] 67764 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 68277 executions tried!
+     [java] 68795 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 69284 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 69762 executions tried!
+     [java] 70186 executions tried!
+     [java] 70608 executions tried!
+     [java] 71036 executions tried!
+     [java] 71460 executions tried!
+     [java] 71885 executions tried!
+     [java] 72312 executions tried!
+     [java] 72738 executions tried!
+     [java] 73158 executions tried!
+     [java] 73581 executions tried!
+     [java] 74010 executions tried!
+     [java] 74433 executions tried!
+     [java] 74863 executions tried!
+     [java] 75290 executions tried!
+     [java] 75721 executions tried!
+     [java] 76145 executions tried!
+     [java] 76566 executions tried!
+     [java] 76990 executions tried!
+     [java] 77416 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 77840 executions tried!
+     [java] 78266 executions tried!
+     [java] 78696 executions tried!
+     [java] 79118 executions tried!
+     [java] 79541 executions tried!
+     [java] 79972 executions tried!
+     [java] 80403 executions tried!
+     [java] 80833 executions tried!
+     [java] 81257 executions tried!
+     [java] 81682 executions tried!
+     [java] 82105 executions tried!
+     [java] 82533 executions tried!
+     [java] 82960 executions tried!
+     [java] 83380 executions tried!
+     [java] 83810 executions tried!
+     [java] 84238 executions tried!
+     [java] 84667 executions tried!
+     [java] 85086 executions tried!
+     [java] 85511 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 85929 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 86360 executions tried!
+     [java] 86790 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 87214 executions tried!
+     [java] 87632 executions tried!
+     [java] 88059 executions tried!
+     [java] 88486 executions tried!
+     [java] 88913 executions tried!
+     [java] 89340 executions tried!
+     [java] 89758 executions tried!
+     [java] 90179 executions tried!
+     [java] 90598 executions tried!
+     [java] 91024 executions tried!
+     [java] 91456 executions tried!
+     [java] 91879 executions tried!
+     [java] 92305 executions tried!
+     [java] 92731 executions tried!
+     [java] 93157 executions tried!
+     [java] 93580 executions tried!
+     [java] 94008 executions tried!
+     [java] 94438 executions tried!
+     [java] 94861 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 95281 executions tried!
+     [java] 95707 executions tried!
+     [java] 96132 executions tried!
+     [java] 96556 executions tried!
+     [java] 96984 executions tried!
+     [java] 97412 executions tried!
+     [java] 97837 executions tried!
+     [java] 98262 executions tried!
+     [java] 98693 executions tried!
+     [java] 99124 executions tried!
+     [java] 99547 executions tried!
+     [java] 99966 executions tried!
+     [java] 100393 executions tried!
+     [java] 100818 executions tried!
+     [java] 101242 executions tried!
+     [java] 101671 executions tried!
+     [java] 102097 executions tried!
+     [java] 102517 executions tried!
+     [java] 102944 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 103376 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 103799 executions tried!
+     [java] 104222 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 104649 executions tried!
+     [java] 105071 executions tried!
+     [java] 105499 executions tried!
+     [java] 105921 executions tried!
+     [java] 106350 executions tried!
+     [java] 106781 executions tried!
+     [java] 107211 executions tried!
+     [java] 107639 executions tried!
+     [java] 108063 executions tried!
+     [java] 108489 executions tried!
+     [java] 108913 executions tried!
+     [java] 109343 executions tried!
+     [java] 109768 executions tried!
+     [java] 110193 executions tried!
+     [java] 110619 executions tried!
+     [java] 111043 executions tried!
+     [java] 111472 executions tried!
+     [java] 111897 executions tried!
+     [java] 112321 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 112747 executions tried!
+     [java] 113170 executions tried!
+     [java] 113589 executions tried!
+     [java] 114021 executions tried!
+     [java] 114447 executions tried!
+     [java] 114879 executions tried!
+     [java] 115305 executions tried!
+     [java] 115708 executions tried!
+     [java] 116138 executions tried!
+     [java] 116562 executions tried!
+     [java] 116981 executions tried!
+     [java] 117408 executions tried!
+     [java] 117832 executions tried!
+     [java] 118260 executions tried!
+     [java] 118682 executions tried!
+     [java] 119106 executions tried!
+     [java] 119523 executions tried!
+     [java] 119954 executions tried!
+     [java] 120376 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 120804 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 121231 executions tried!
+     [java] 121654 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 122073 executions tried!
+     [java] 122501 executions tried!
+     [java] 122926 executions tried!
+     [java] 123351 executions tried!
+     [java] 123777 executions tried!
+     [java] 124203 executions tried!
+     [java] 124634 executions tried!
+     [java] 125061 executions tried!
+     [java] 125486 executions tried!
+     [java] 125913 executions tried!
+     [java] 126339 executions tried!
+     [java] 126766 executions tried!
+     [java] 127198 executions tried!
+     [java] 127626 executions tried!
+     [java] 128050 executions tried!
+     [java] 128475 executions tried!
+     [java] 128899 executions tried!
+     [java] 129327 executions tried!
+     [java] 129757 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 130184 executions tried!
+     [java] 130613 executions tried!
+     [java] 131038 executions tried!
+     [java] 131469 executions tried!
+     [java] 131901 executions tried!
+     [java] 132331 executions tried!
+     [java] 132759 executions tried!
+     [java] 133184 executions tried!
+     [java] 133607 executions tried!
+     [java] 134035 executions tried!
+     [java] 134462 executions tried!
+     [java] 134888 executions tried!
+     [java] 135313 executions tried!
+     [java] 135732 executions tried!
+     [java] 136157 executions tried!
+     [java] 136572 executions tried!
+     [java] 136985 executions tried!
+     [java] 137410 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 137839 executions tried!
+     [java] 138262 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 138678 executions tried!
+     [java] 139104 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 139546 executions tried!
+     [java] 139993 executions tried!
+     [java] 140449 executions tried!
+     [java] 140893 executions tried!
+     [java] 141332 executions tried!
+     [java] 141781 executions tried!
+     [java] 142226 executions tried!
+     [java] 142671 executions tried!
+     [java] 143124 executions tried!
+     [java] 143569 executions tried!
+     [java] 144022 executions tried!
+     [java] 144473 executions tried!
+     [java] 144914 executions tried!
+     [java] 145366 executions tried!
+     [java] 145816 executions tried!
+     [java] 146267 executions tried!
+     [java] 146718 executions tried!
+     [java] 147170 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 147620 executions tried!
+     [java] 148074 executions tried!
+     [java] 148515 executions tried!
+     [java] 148967 executions tried!
+     [java] 149417 executions tried!
+     [java] 149865 executions tried!
+     [java] 150312 executions tried!
+     [java] 150764 executions tried!
+     [java] 151210 executions tried!
+     [java] 151657 executions tried!
+     [java] 152106 executions tried!
+     [java] 152557 executions tried!
+     [java] 153003 executions tried!
+     [java] 153452 executions tried!
+     [java] 153903 executions tried!
+     [java] 154354 executions tried!
+     [java] 154801 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 155247 executions tried!
+     [java] 155699 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 156150 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] 156605 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 157056 executions tried!
+     [java] 157505 executions tried!
+     [java] 157955 executions tried!
+     [java] 158409 executions tried!
+     [java] 158861 executions tried!
+     [java] 159312 executions tried!
+     [java] 159762 executions tried!
+     [java] 160212 executions tried!
+     [java] 160660 executions tried!
+     [java] 161110 executions tried!
+     [java] 161562 executions tried!
+     [java] 162007 executions tried!
+     [java] 162460 executions tried!
+     [java] 162908 executions tried!
+     [java] 163361 executions tried!
+     [java] 163813 executions tried!
+     [java] 164271 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 164724 executions tried!
+     [java] 165177 executions tried!
+     [java] 165625 executions tried!
+     [java] 166078 executions tried!
+     [java] 166519 executions tried!
+     [java] 166968 executions tried!
+     [java] 167420 executions tried!
+     [java] 167876 executions tried!
+     [java] 168307 executions tried!
+     [java] 168760 executions tried!
+     [java] 169215 executions tried!
+     [java] 169668 executions tried!
+     [java] 170119 executions tried!
+     [java] 170570 executions tried!
+     [java] 171015 executions tried!
+     [java] 171462 executions tried!
+     [java] 171907 executions tried!
+     [java] 172361 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 172808 executions tried!
+     [java] 173259 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 173712 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 174161 executions tried!
+     [java] 174589 executions tried!
+     [java] 175022 executions tried!
+     [java] 175446 executions tried!
+     [java] 175874 executions tried!
+     [java] 176302 executions tried!
+     [java] 176728 executions tried!
+     [java] 177159 executions tried!
+     [java] 177588 executions tried!
+     [java] 178021 executions tried!
+     [java] 178449 executions tried!
+     [java] 178872 executions tried!
+     [java] 179283 executions tried!
+     [java] 179703 executions tried!
+     [java] 180131 executions tried!
+     [java] 180562 executions tried!
+     [java] 180992 executions tried!
+     [java] 181412 executions tried!
+     [java] 181841 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 182269 executions tried!
+     [java] 182699 executions tried!
+     [java] 183128 executions tried!
+     [java] 183555 executions tried!
+     [java] 183979 executions tried!
+     [java] 184401 executions tried!
+     [java] 184831 executions tried!
+     [java] 185263 executions tried!
+     [java] 185691 executions tried!
+     [java] 186117 executions tried!
+     [java] 186544 executions tried!
+     [java] 186964 executions tried!
+     [java] 187387 executions tried!
+     [java] 187821 executions tried!
+     [java] 188250 executions tried!
+     [java] 188679 executions tried!
+     [java] 189100 executions tried!
+     [java] 189527 executions tried!
+     [java] 189955 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 190380 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 2
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 190810 executions tried!
+     [java] 191239 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 2
+     [java]     returnId: 1
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 2
+     [java] }
+     [java] 
+     [java] 191599 executions tried!
+     [java] 191941 executions tried!
+     [java] 192293 executions tried!
+     [java] 192642 executions tried!
+     [java] 192972 executions tried!
+     [java] 193303 executions tried!
+     [java] 193650 executions tried!
+     [java] 194002 executions tried!
+     [java] 194343 executions tried!
+     [java] 194694 executions tried!
+     [java] 195041 executions tried!
+     [java] Found solution:
+     [java] ----------------------------------------------------------------
+     [java] Hole 0:
+     [java] boolean res0 = com.google.javascript.jscomp.NodeUtil.isForIn(parent);
+     [java] return res0;
+     [java] 
+     [java] Hole 1:
+     [java] var.removeChild(name);
+     [java] parent.replaceChild(var, name);
+     [java] 
+     [java] Hole 2:
+     [java] boolean res0 = var.hasOneChild();
+     [java] return res0;
+     [java] 
+     [java] Hole 3:
+     [java] boolean res0 = name.hasOneChild();
+     [java] return res0;
+     [java] 
+     [java] Hole 4:
+     [java] com.google.javascript.rhino.Node res0 = name.removeFirstChild();
+     [java] return res0;
+     [java] 
+     [java] ----------------------------------------------------------------
+     [java] Number of executions: 195064
+
+BUILD SUCCESSFUL
+Total time: 36 minutes 32 seconds

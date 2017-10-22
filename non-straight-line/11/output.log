@@ -1,0 +1,96 @@
+Buildfile: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml
+
+rhino:
+
+properties:
+
+init:
+
+compile:
+
+compile-most:
+
+compile-jdk15:
+
+compile:
+
+properties:
+
+compile:
+
+xmlimplsrc-compile:
+     [echo] Calling /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/lib/rhino/xmlimplsrc/build.xml
+
+compile:
+
+compile-all:
+
+compile:
+
+jar:
+
+rhino-jarjar:
+   [jarjar] Updating jar: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build/lib/rhino.jar
+
+svnversion:
+
+compile:
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml:264: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml:270: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+[propertyfile] Updating property file: /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+
+compile-tests:
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml:338: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /Users/josh/Study/courses/Execution-Driven-Synthesis/non-straight-line-experiments/repos/Closure_1/build.xml:344: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+synthesis:
+     [java] 1 executions tried!
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Trying configuration: {
+     [java]     searchDepth: 1
+     [java]     returnId: 0
+     [java]     maxMethodDuplication: 1
+     [java]     maxRequiredInputSurvivalTime: 1
+     [java] }
+     [java] 
+     [java] Found solution:
+     [java] ----------------------------------------------------------------
+     [java] Hole 0:
+     [java] boolean res0 = p.canCollapse();
+     [java] return res0;
+     [java] 
+     [java] Hole 1:
+     [java] this.flattenReferencesTo(p, propAlias);
+     [java] 
+     [java] Hole 2:
+     [java] boolean res0 = p.isSimpleStubDeclaration();
+     [java] return res0;
+     [java] 
+     [java] Hole 3:
+     [java] this.flattenSimpleStubDeclaration(p, propAlias);
+     [java] 
+     [java] ----------------------------------------------------------------
+     [java] Number of executions: 9
+
+BUILD SUCCESSFUL
+Total time: 6 seconds

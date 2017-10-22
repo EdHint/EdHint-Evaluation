@@ -6,10 +6,10 @@ import org.junit.runner.Result;
 
 public class Synthesis {
     public static void main(String[] args) {
-        BatchInvocationRequest request = com.google.javascript.jscomp.CollapseProperties.request;
-        Class<?> test = com.google.javascript.jscomp.CollapsePropertiesTest.class;
+        BatchInvocationRequest request = org.apache.commons.math.linear.SparseFieldMatrix.request;
+        Class<?> test = org.apache.commons.math.linear.SparseFieldMatrixTest.class;
         JUnitCore junit = new JUnitCore();
-        int numOfHoles = 4;
+        int numOfHoles = 2;
 
         int maxTime = 3600;
         SketchExecutor.setType(ExecutorType.JUZI);

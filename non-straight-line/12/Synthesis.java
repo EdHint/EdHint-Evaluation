@@ -6,10 +6,10 @@ import org.junit.runner.Result;
 
 public class Synthesis {
     public static void main(String[] args) {
-        BatchInvocationRequest request = org.jfree.chart.axis.SegmentedTimeline.request;
-        Class<?> test = org.jfree.chart.axis.junit.SegmentedTimelineTests.class;
+        BatchInvocationRequest request = com.google.javascript.jscomp.CoalesceVariableNames.request;
+        Class<?> test = com.google.javascript.jscomp.CoalesceVariableNamesTest.class;
         JUnitCore junit = new JUnitCore();
-        int numOfHoles = 3;
+        int numOfHoles = 5;
 
         int maxTime = 3600;
         SketchExecutor.setType(ExecutorType.JUZI);
@@ -28,7 +28,7 @@ public class Synthesis {
                 System.out.println(i + " executions tried!");
                 checkpoint = System.currentTimeMillis();
             }
-           request.reset();
+            request.reset();
             Result result = junit.run(test);
             if(result.wasSuccessful()) {
                 found = true;
